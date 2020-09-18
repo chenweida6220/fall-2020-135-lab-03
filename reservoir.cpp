@@ -135,7 +135,7 @@ string compare_basins(string inputDate) {
         return higher;
       }
       else if (eastEl == westEl) {
-        higher = "Same";
+        higher = "Equal";
         return higher;
       }
     }
