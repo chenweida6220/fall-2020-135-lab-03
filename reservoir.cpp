@@ -134,6 +134,10 @@ string compare_basins(string inputDate) {
         higher = "West";
         return higher;
       }
+      else if (eastEl == westEl) {
+        higher = "Same";
+        return higher;
+      }
     }
   }
   cout << "Invalid Date Inputted" << endl;

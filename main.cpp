@@ -34,6 +34,9 @@ int main() {
   higherBasin = compare_basins("01/05/2018");
   cout << "Higher basin: " << higherBasin << endl;
   // Output: East
+  higherBasin = compare_basins("09/17/2018");
+  cout << "Higher basin: " << higherBasin << endl;
+  // Output: Same
 
   cout << endl;
 
